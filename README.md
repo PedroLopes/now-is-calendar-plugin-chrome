@@ -9,7 +9,7 @@ Once you click on the ``add gCal`` button below any event, it will open a new ta
 
 ## How to install? 
 
-This is not being offered in the Chrome store or anything. So yo should install it manually by: 
+This is not being offered in the Chrome store. So you should install it manually by: 
 
 1. Open chrome://extensions/
 2. On the corner enable "developer mode"
