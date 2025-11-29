@@ -11,7 +11,7 @@ Once you click on the ``add gCal`` button below any event, it will open a new ta
 
 This is not being offered in the Chrome store. So you should install it manually by: 
 
-1. Open [chrome://extensions/](chrome://extensions/)
+1. Open ``chrome://extensions/`` on your browser
 2. On the corner enable "developer mode"
 3. Now you can do "Load unpacked"
 4. And select the directory containing the code of this repository. 
