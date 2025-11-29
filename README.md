@@ -1,4 +1,4 @@
-# NowIs to Calendar (Chrome Plugin)
+# add concerts from now-is.org to your calendar (Chrome Plugin, using Google Calendar)
 
 This is a Google Chrome plugin that finds events at the amazing
 [Now Is Calendar](https://now-is.org) and adds a button so that you can add them to your calendar (currently only supports google calendar API). 
