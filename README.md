@@ -23,7 +23,7 @@ This is not being offered in the Chrome store. So you should install it manually
  
 The settings panel (via ``Chrome's extension manager`` at ``chrome://extensions/``, then ``details`` of this extension, then ``Extension options``) allows you to configure:
 
-  * tag: add a tag (e.g., "[gig]") to the title of any of your calendar events.
-  * calendar: the ID of a google calendar if you do not want this to add it to your default. To obtain this ID, go to your desired calendar in ``Google Calendar``, then ``settings`` and then search for ``Integrate calendar`` and then copy the ``Calendar ID`` (including the long string of characters and the ``@group.calendar.google.com`` portion).
-  * debug: a checkbox to enable debugging on this extension. This log is accessible via Chrome's ``inspector`` ``console``.
+  * ``tag``: add a tag (e.g., "[gig]") to the title of any of your calendar events.
+  * ``calendar``: the ID of a google calendar if you do not want this to add it to your default. To obtain this ID, go to your desired calendar in ``Google Calendar``, then ``settings`` and then search for ``Integrate calendar`` and then copy the ``Calendar ID`` (including the long string of characters and the ``@group.calendar.google.com`` portion).
+  * ``debug``: a checkbox to enable debugging on this extension. This log is accessible via Chrome's ``inspector`` ``console``.
 
