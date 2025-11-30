@@ -27,3 +27,38 @@ The settings panel (via ``Chrome's extension manager`` at ``chrome://extensions/
   * ``calendar``: the ID of a google calendar if you do not want this to add it to your default. To obtain this ID, go to your desired calendar in ``Google Calendar``, then ``settings`` and then search for ``Integrate calendar`` and then copy the ``Calendar ID`` (including the long string of characters and the ``@group.calendar.google.com`` portion).
   * ``debug``: a checkbox to enable debugging on this extension. This log is accessible via Chrome's ``inspector`` ``console``.
 
+
+# Privacy Policy
+
+**Last updated: Nov 29, 2025**
+
+## Overview
+This Chrome extension does **not collect, store, transmit, or share any personal data** from users. It operates entirely on the user’s device and only interacts with publicly available text already visible on the websites the user is visiting. It also only operates on the ``https://now-is.org`` website.
+
+## Data Collection and Use
+- The extension **does not collect or store any personal information**, browsing history, cookies, identifiers, or analytics.  
+- The extension does **not send any data to external servers**, third parties, or the developer.  
+- All processing occurs locally within the user’s browser.
+
+## How the Extension Works
+The extension simply:
+1. Reads text already present on the active webpage if the URL is ``https://now-is.org`` (which is public and already loaded by the user).  
+2. Extracts specific visible elements when the user activates the extension’s buttons.  
+3. Uses those extracted fields to **construct a Google Calendar event URL**.  
+4. The user chooses whether or not to submit that event to Google Calendar.
+
+No data is uploaded, stored, logged, or transmitted anywhere outside the user’s own Google Calendar flow.
+
+## Third Parties
+The extension does not integrate with or communicate with any third-party services except when opening a **Google Calendar URL** in the user’s browser, which is equivalent to clicking any normal link to calendar.google.com.
+
+## Security
+Because no data is collected or transmitted, there is no risk of interception or unauthorized access introduced by this extension.
+
+## Changes to This Policy
+If the extension’s functionality changes in the future in a way that affects privacy, this policy will be updated accordingly.
+
+## Contact
+If you have any questions about this privacy policy, contact the developer at:  
+``humancomputerintegration`` AT ``gmail.com``. 
+

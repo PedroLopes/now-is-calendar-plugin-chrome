@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "NowIs.Org > Calendar",
   "version": "1.0",
-  "description": "Finds events at the amazing now-is.org and adds a button so that you can add them to your calendar (currently only supports google calendar API)",
+  "description": "Add events from now-is.org to your google calendar",
   "options_page": "options.html",
   "permissions": ["storage", "scripting", "activeTab"],
   "content_scripts": [
