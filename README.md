@@ -19,6 +19,3 @@ This is not being offered in the Chrome store or anything. So yo should install 
 7. It only operates on the [[https://now-is.org/]] URL, so navigate to the [[https://now-is.org/]] page and you should see the buttons. 
 8. Test it by pressing one.
 
-## TODO
-
-1. add options page so you can tweak settings. Currently, settings are tweaked via code. 
