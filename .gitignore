@@ -10,6 +10,9 @@
 .Trashes
 Thumbs.db
 
+now-is-calendar-plugin.zip
+public-app/*
+
 dist
 node_modules
 package-lock.json
