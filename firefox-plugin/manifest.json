@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "NowIs.Org > Calendar",
+  "version": "1.0",
+  "description": "Add events from now-is.org to your google calendar",
+
+"applications": {
+  "gecko": {
+    "id": "nowis-calendar@pedrolopes.org",
+    "strict_min_version": "57.0"
+  }
+},
+
+
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+
+
+
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://now-is.org/"],
+      "js": ["content.js"]
+    }
+  ]
+}
+

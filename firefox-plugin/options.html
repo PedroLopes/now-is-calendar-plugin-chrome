@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NowIs.Org > Calendar</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+  </style>
+</head>
+<body>
+
+  <h2>"NowIs.Org > Calendar" Settings</h2>
+
+
+<p>For explanations of the settings, see <a href="https://github.com/PedroLopes/now-is-calendar-plugin-chrome">instructions</a>.
+
+<hr>
+
+<h3>Main settings</h3>
+</p>
+<label>
+  Tag prepended to title of calendar event (e.g., "[GIG]"). <input type="text" id="tagInput" placeholder="Enter tag (e.g., gig)" />
+</label>
+<br>
+<label>
+  Calendar ID to add to a specific google calendar (e.g.,). 
+  <input type="text" id="calendarInput" placeholder="name of sub-/specific-google calendar to save to" />
+</label>
+<br>
+<hr>
+
+<h3>Debug/Developer settings</h3>
+
+  <label>
+    <input type="checkbox" id="debug">
+    Enable console.log debug prints.</label>
+<br>
+<hr>
+<h3>Press to save settings</h3>
+<button id="saveBtn">Save Settings</button><p id="status"></p>
+  <script src="options.js"></script>
+</body>
+</html>
+
