@@ -1,3 +1,4 @@
+//firefox
 //V1.1 added settings
 let settings = {
   debug: true,
