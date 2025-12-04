@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Add events from now-is.org to your google calendar",
   "options_page": "options.html",
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["https://now-is.org/"],

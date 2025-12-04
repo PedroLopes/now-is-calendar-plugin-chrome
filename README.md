@@ -1,6 +1,6 @@
 # add concerts from now-is.org to your calendar (Chrome Plugin, using Google Calendar)
 
-This is a Google Chrome plugin that finds events at the amazing
+This is a plugin for Chrome or Firefox that finds events at the amazing
 [Now Is Calendar](https://now-is.org) and adds a button so that you can add them to your calendar (currently only supports google calendar API). 
 
 Once you click on the ``add gCal`` button below any event, it will open a new tab in your browser to handle a new google calendar event corresponding to this event.
@@ -9,15 +9,20 @@ Once you click on the ``add gCal`` button below any event, it will open a new ta
 
 ## How to install? 
 
-This is not being offered in the Chrome store. So you should install it manually by: 
-1. Open ``chrome://extensions/`` on your browser
+This is not being offered in the Chrome store or the Firefox extensions. So you should install it manually via your browser's extenstions.
+
+For Google Chrome
+0. You can download our latest zip at ``chrome-plugin/latest.zip`` or use the source code at ``chrome-plugin`` 
+1. Then, open ``chrome://extensions/`` on your browser
 2. On the corner enable "developer mode"
 3. Now you can do "Load unpacked"
-4. And select the directory containing the code of this repository. 
+4. And select the directory containing the google chrome code ````, in this repository. 
 5. It will now appear on your chrome "All Extensions" tab.
 6. If needed, enable it as you would a normal extension. 
 7. It only operates on the ``https://now-is.org/`` URL, so navigate to the [Now Is Calendar](https://now-is.org) page and you should see the buttons. 
 8. Test it by pressing one.
+
+For firefox the extension loading is essentially the same, repeat the steps to load a custom extension but use the code in ``firefox-plugin`` (either the source code or the ``firefox-plugin/latest.zip``). 
 
 ## How to configure?
  
