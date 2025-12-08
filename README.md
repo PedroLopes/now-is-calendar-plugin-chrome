@@ -36,7 +36,7 @@ This is not being offered in the Chrome store. So you should install it **manual
 
 
 <details>
-  <summary>**Manual Firefox install** instructions, click to expand</summary>
+  <summary><b>Manual Firefox install</b> instructions, click to expand</summary>
 
 **Manual Firefox install** instructions (install the plugin from code/repository):
 0. You can download our latest zip at ``builds/firefox-plugin-latest.zip`` or use the source code at ``firefox-plugin`` 
