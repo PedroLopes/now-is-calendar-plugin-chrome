@@ -93,3 +93,13 @@ If the extension’s functionality changes in the future in a way that affects p
 If you have any questions about this privacy policy, contact the developer at:  
 ``humancomputerintegration`` AT ``gmail.com``. 
 
+
+## Planned features
+
+<details>
+  <summary>Click to expand</summary>
+
+1. Change button text (status: implemented on Firefox code, not on store, needs to be added to chrome code)
+2. Download .ical rather than import to gcal (status: not working, searching for simple implementation/workaround)
+
+</details>
